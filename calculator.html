@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,27 +27,21 @@
             margin-top: 35px;
         }
 
-        p {
-            margin: 12px 0;
-        }
+        p { margin: 12px 0; }
 
         ul {
             margin-top: 10px;
             margin-bottom: 15px;
         }
 
-        li {
-            margin-bottom: 8px;
-        }
+        li { margin-bottom: 8px; }
 
         .updated {
             color: #666;
             margin-bottom: 25px;
         }
 
-        .section {
-            margin-bottom: 25px;
-        }
+        .section { margin-bottom: 25px; }
 
         .contact-box {
             background-color: #f8f8f8;
@@ -62,9 +55,7 @@
             text-decoration: none;
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
+        a:hover { text-decoration: underline; }
 
         hr {
             border: none;
@@ -73,6 +64,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <h1>Privacy Policy</h1>
@@ -88,12 +80,8 @@
         </p>
 
         <p>
-            This Privacy Policy explains how the App handles information when you use our services.
-            We are committed to protecting your privacy and ensuring the security of your information.
-        </p>
-
-        <p>
-            By using the App, you agree to the practices described in this Privacy Policy.
+            This Privacy Policy explains how the App handles information on your device.
+            We are committed to protecting your privacy and ensuring your data remains under your control.
         </p>
     </div>
 
@@ -103,30 +91,23 @@
         <h2>Information We Collect</h2>
 
         <p>
-            The App is designed with privacy as a core principle and does not collect,
-            transmit, store, or share your personal information on external servers.
+            The App does not collect, transmit, store, or share any personal information on external servers.
         </p>
 
         <h3>Information Stored on Your Device</h3>
 
-        <p>
-            The App may store the following information locally on your device:
-        </p>
+        <p>The App stores the following information locally on your device only:</p>
 
         <ul>
-            <li>Credentials, passwords, notes, and other information entered by you into the secure vault.</li>
+            <li>Credentials, passwords, notes, and vault data entered by you.</li>
             <li>
-                A phone number provided by you for:
-                <ul>
-                    <li>Password recovery via One-Time Password (OTP).</li>
-                    <li>Security alerts related to unauthorized access attempts.</li>
-                </ul>
+                An optional phone number provided by you for security purposes.
+                This is stored locally using device storage and is not transmitted anywhere.
             </li>
         </ul>
 
         <p>
-            This information is stored only on your device and is not transmitted to
-            VayaTek or any third party.
+            Providing a phone number is completely optional and depends on user choice.
         </p>
     </div>
 
@@ -135,17 +116,38 @@
     <div class="section">
         <h2>How We Use Information</h2>
 
+        <p>The locally stored information is used only for app functionality:</p>
+
+        <ul>
+            <li>Secure storage of credentials and sensitive data.</li>
+            <li>Password recovery via SMS-based OTP (when user initiates recovery).</li>
+            <li>Security alerts triggered after repeated invalid login attempts.</li>
+            <li>User authentication and access control.</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <h2>SMS Permissions</h2>
+
         <p>
-            The information stored locally is used solely to provide the App's functionality,
-            including:
+            The App uses SMS functionality only in specific, user-initiated security scenarios:
         </p>
 
         <ul>
-            <li>Secure storage of credentials and sensitive information.</li>
-            <li>Password recovery through SMS-based OTP.</li>
-            <li>Security alerts for unauthorized access attempts.</li>
-            <li>User authentication and access management.</li>
+            <li>Password recovery when the user requests OTP verification.</li>
+            <li>Security alerts triggered after repeated invalid password or PIN attempts.</li>
         </ul>
+
+        <p>
+            SMS messages are initiated only from the user’s device and only to the user’s registered recovery number.
+            No SMS content, logs, or metadata are stored or shared externally.
+        </p>
+
+        <p>
+            No SMS activity occurs in the background or without explicit user action.
+        </p>
     </div>
 
     <hr>
@@ -154,24 +156,17 @@
         <h2>Data Storage and Security</h2>
 
         <p>
-            The App is designed to keep user data exclusively on the device.
+            All data is stored exclusively on the user’s device.
         </p>
-
-        <p>Security measures include:</p>
 
         <ul>
             <li>AES-256 encryption for protecting stored data.</li>
             <li>PIN and password protection.</li>
-            <li>Biometric authentication support (where available on the device).</li>
-            <li>Automatic logout after periods of inactivity.</li>
-            <li>Screenshot blocking to help protect sensitive information.</li>
-            <li>Security alerts for repeated unauthorized access attempts.</li>
+            <li>Biometric authentication support (if available on device).</li>
+            <li>Automatic logout after inactivity.</li>
+            <li>Screenshot blocking for privacy protection.</li>
+            <li>Intruder detection for repeated failed login attempts.</li>
         </ul>
-
-        <p>
-            Although we implement security measures to protect information, no method of
-            electronic storage can be guaranteed to be 100% secure.
-        </p>
     </div>
 
     <hr>
@@ -182,48 +177,25 @@
         <p>The App does not:</p>
 
         <ul>
-            <li>Upload your data to cloud servers.</li>
-            <li>Synchronize data with online accounts.</li>
-            <li>Maintain copies of your credentials on external systems.</li>
-            <li>Operate backend servers for storing user data.</li>
+            <li>Upload data to any server or cloud platform.</li>
+            <li>Synchronize data across devices.</li>
+            <li>Use backend services for storing user data.</li>
         </ul>
 
-        <p>
-            All vault information remains on the user's device.
-        </p>
+        <p>All information remains fully on the user’s device.</p>
     </div>
 
     <hr>
 
     <div class="section">
-        <h2>SMS Permissions</h2>
+        <h2>Data Sharing</h2>
 
         <p>
-            The App may request SMS-related permissions solely for features such as:
-        </p>
-
-        <ul>
-            <li>Sending or managing password recovery OTPs.</li>
-            <li>Delivering security-related alerts configured by the user.</li>
-        </ul>
-
-        <p>
-            These permissions are used only for the intended functionality of the App.
-        </p>
-    </div>
-
-    <hr>
-
-    <div class="section">
-        <h2>Data Sharing and Disclosure</h2>
-
-        <p>
-            We do not sell, rent, trade, or share user information with third parties.
+            We do not sell, rent, trade, or share any user data with third parties.
         </p>
 
         <p>
-            Because user data remains on the device, VayaTek generally does not have access
-            to the information stored within the App.
+            Since all data remains on the device, VayaTek does not have access to user vault data or phone numbers.
         </p>
     </div>
 
@@ -232,18 +204,12 @@
     <div class="section">
         <h2>Third-Party Services</h2>
 
-        <p>The App does not use:</p>
-
         <ul>
-            <li>Analytics services</li>
-            <li>Advertising networks</li>
-            <li>Marketing platforms</li>
-            <li>Third-party data collection services</li>
+            <li>No analytics services</li>
+            <li>No advertising networks</li>
+            <li>No tracking or marketing SDKs</li>
+            <li>No third-party data collection tools</li>
         </ul>
-
-        <p>
-            No third-party services are used to collect user data.
-        </p>
     </div>
 
     <hr>
@@ -252,13 +218,11 @@
         <h2>Children's Privacy</h2>
 
         <p>
-            The App is a utility application intended for general audiences and is not
-            specifically directed toward children.
+            The App is a general utility application and is not specifically directed toward children.
         </p>
 
         <p>
-            We do not knowingly collect personal information from children or any users
-            through external servers or online services.
+            We do not knowingly collect personal information from children through external systems or servers.
         </p>
     </div>
 
@@ -267,20 +231,10 @@
     <div class="section">
         <h2>Data Retention</h2>
 
-        <p>
-            All information remains stored locally on the user's device until:
-        </p>
-
         <ul>
-            <li>The user deletes the information.</li>
-            <li>The application data is cleared.</li>
-            <li>The application is uninstalled.</li>
+            <li>Data remains stored on the device until deleted by the user.</li>
+            <li>Data is removed when the app is uninstalled or app data is cleared.</li>
         </ul>
-
-        <p>
-            When the App is uninstalled, locally stored App data is removed from the device
-            according to the operating system's data management processes.
-        </p>
     </div>
 
     <hr>
@@ -288,30 +242,11 @@
     <div class="section">
         <h2>User Rights</h2>
 
-        <p>
-            Since user information is stored locally on the device and not on VayaTek servers:
-        </p>
-
         <ul>
-            <li>Users maintain direct control over their data.</li>
-            <li>Users may modify or delete stored information at any time.</li>
-            <li>Users may uninstall the App to remove stored App data from their device.</li>
+            <li>Users fully control their data.</li>
+            <li>Users can modify or delete stored data anytime.</li>
+            <li>Users may uninstall the app to remove all local data.</li>
         </ul>
-    </div>
-
-    <hr>
-
-    <div class="section">
-        <h2>Changes to This Privacy Policy</h2>
-
-        <p>
-            We may update this Privacy Policy from time to time.
-        </p>
-
-        <p>
-            Any changes will be reflected by updating the "Last Updated" date at the top
-            of this document.
-        </p>
     </div>
 
     <hr>
@@ -321,12 +256,7 @@
 
         <div class="contact-box">
             <p><strong>VayaTek</strong></p>
-            <p>
-                Email:
-                <a href="mailto:technologicalvaya@gmail.com">
-                    technologicalvaya@gmail.com
-                </a>
-            </p>
+            <p>Email: <a href="mailto:technologicalvaya@gmail.com">technologicalvaya@gmail.com</a></p>
         </div>
     </div>
 
@@ -336,11 +266,9 @@
         <h2>Jurisdiction</h2>
 
         <p>
-            This App is developed and operated from India. Any disputes relating to this
-            Privacy Policy shall be governed by applicable laws of India.
+            This App is developed and operated from India. Any disputes will be governed under applicable Indian laws.
         </p>
     </div>
 
 </body>
 </html>
-```
